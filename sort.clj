@@ -23,3 +23,15 @@
       )
     )
   )
+
+; 单元测试
+(doseq
+  [x [
+    []
+    [1]
+    [3 1 2]
+    (take 10 (repeatedly #(rand-int 100)))
+    ]]
+  (println (xsort x))
+  (assert (= (xsort x) (sort x)))
+  )
