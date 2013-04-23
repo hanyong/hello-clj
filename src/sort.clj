@@ -1,3 +1,5 @@
+(ns hello-clj)
+
 (defn xsort [arg]
   (if (empty? arg)
     ; 空集合等于自身

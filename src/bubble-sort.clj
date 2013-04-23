@@ -1,3 +1,5 @@
+(ns hello-clj)
+
 ; 一趟冒泡, 最大元素移动到最后
 (declare bubble-up-do)
 (defn bubble-up [coll] (do
