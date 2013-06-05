@@ -1,6 +1,8 @@
 ;; http://www.4clojure.com/problem/125
 ;; 设计一个函数, 返回值为这个函数自身的源码.
 ;
+;; 建议在 eclipse 下阅读本文, 这样你可以通过切换代码注释一边阅读一边运行查看测试代码, 就像我写作本文时一样.
+;
 ; 从理论(http://en.wikipedia.org/wiki/Quine_%28computing%29)角度看,
 ; 实际为要求设计一个满足下列闭环变换的函数.
 ; fn --invoke-> str --read-string-> list --> eval --> fn
